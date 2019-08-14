@@ -1,0 +1,46 @@
+const YKOyuncu = require("ykoyuncu.js");
+const client = new YKOyuncu({
+    token: "BOT TOKEN"
+})
+
+let prefix = 'yk!';
+
+client.on('ready', () => {
+    console.log('Bot Hazır!')
+})
+
+client.on('message', (message) => {
+    if (message.content.toLowerCase() === prefix + 'ping') {
+        client.sendMessage(message.channel.id, "Pong!")
+    } else if (message.content.toLowerCase() === prefix + 'sunucubilgi') {
+        client.sendEmbed(message.channel.id, {
+            title: "Server Information",
+            thumbnail: {
+                url: `https://cdn.discordapp.com/icons/${message.guild.id}/${message.guild.icon}.webp`
+            },
+            fields: [{
+                    name: "Sunucu ID",
+                    value: message.guild.id,
+                    inline: true
+                },
+                {
+                    name: "İsim",
+                    value: message.guild.name,
+                    inline: true
+                },
+                {
+                    name: "Bölge",
+                    value: message.guild.region,
+                    inline: true
+                },
+                {
+                    name: "Üye Sayısı",
+                    value: message.guild.member_count ,
+                    inline: true
+                }
+            ]
+        })
+    }
+})
+
+client.login()

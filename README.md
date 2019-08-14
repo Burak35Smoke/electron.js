@@ -1,6 +1,6 @@
 [![NPM](https://nodei.co/npm/ykoyuncu.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ykoyuncu.js/)
 
-# STILL IN DEVELOPMENT
+# Geliştirme
 
 ## Başlarken
 `npm i ykoyuncu` Yazarak İndirin

@@ -3,7 +3,7 @@
 # Geliştirme
 
 ## Başlarken
-`npm i ykoyuncu` Yazarak İndirin
+`npm i ykoyuncu.js` Yazarak İndirin
 
 ## Kullanım 
 

@@ -3,7 +3,7 @@
 # STILL IN DEVELOPMENT
 
 ## Başlarken
-`npm i discord4node` Yazarak İndirin
+`npm i ykoyuncu` Yazarak İndirin
 
 ## Kullanım 
 

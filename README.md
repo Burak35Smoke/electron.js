@@ -8,15 +8,23 @@
 ## Kullanım 
 
 **İstemci Oluştur**
+**Örnek Altyapı**
 ```javascript
 const YKOyuncu = require("ykoyuncu.js");
 const client = new YKOyuncu({
-    token: "BOTUNUZUN TOKENİ"
+    token: "",//Burada "" İçine Botunuzun Tokenini (Anahtarını) Yazıcaksınız.
+veritabanı: {
+        dosya: "veritabani.json"//Burada "" içine veritabanı dosyanızın adını yazacaksınız.
+    },
+ durum: "online"//Bu Kısıma Sadece "online" = Çevrimiçi , "dnd" = Rahatsız Etmeyin , "idle" = Boşta Bunların Dışında Bir Şey Yazarsanız Hata Verir.   
 })
 
 client.login()
 ```
-
+**Komut Sistemi**
+```javascript
+Yakında
+```
 **Event (Olay): ready (Hazır)**
 ```javascript
 client.on('ready', () => {})

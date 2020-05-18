@@ -1,9 +1,9 @@
-const YKOyuncu = require("ykoyuncu.js");
-const client = new YKOyuncu({
+const Electron = require("electron.js");
+const client = new Electron({
     token: "BOT TOKEN"
 })
 
-let prefix = 'yk!';
+let prefix = 'e!';
 
 client.on('ready', () => {
     console.log('Bot Hazır!')

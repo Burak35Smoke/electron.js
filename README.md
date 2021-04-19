@@ -1,17 +1,17 @@
-[![NPM](https://nodei.co/npm/ykoyuncu.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ykoyuncu.js/)
+[![NPM](https://nodei.co/npm/ykoyuncu.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/electron.js/)
 
 # Geliştirme
 
 ## Başlarken
-`npm i ykoyuncu.js` Yazarak İndirin
+`npm i electron.js` Yazarak İndirin
 
 ## Kullanım 
 
 **İstemci Oluştur**
 **Örnek Altyapı**
 ```javascript
-const YKOyuncu = require("ykoyuncu.js");
-const client = new YKOyuncu({
+const ElectronJS = require("electron.js");
+const client = new ElectronJS({
     token: "",//Burada "" İçine Botunuzun Tokenini (Anahtarını) Yazıcaksınız.
 veritabanı: {
         dosya: "veritabani.json"//Burada "" içine veritabanı dosyanızın adını yazacaksınız.
@@ -45,6 +45,6 @@ client.sendMessage(channelid, string)
 client.sendEmbed(channelid, embedObject)
 ```
 
-Örnek için [tıkla](https://github.com/YoutubeKafasi/ykoyuncu.js/blob/master/index.js.example)
+Örnek için [tıkla](https://github.com/Burak35Smoke/electron.js/blob/master/index.js.example)
 
 Kutu objeleri için [tıkla](https://discordapp.com/developers/docs/resources/channel#embed-object)

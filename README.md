@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/ykoyuncu.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/electron.js/)
+[![NPM](https://nodei.co/npm/electron.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/electron.js/)
 
 # Geliştirme
 
